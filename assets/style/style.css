@@ -24,6 +24,9 @@ p,input,label,span,a{
     margin-right:auto;
     overflow: auto;
 }
+.nav .hamburger{
+    display: none;
+}
 .nav h1{
     /* border: 2px dashed black; */
     float: left;
@@ -544,13 +547,18 @@ p,input,label,span,a{
     font-weight: 700;
     text-align: right;
 }
+.copyright a{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
 /* responsive display */
 /* max-width = if the screen size reach to 0-768px apply this css */
 @media screen and (max-width: 768px){
     .wrapper{
         min-width: 0;
     }
-    .nav h1{
+    /* .nav h1{
         width: 100%;
         text-align: center;
     }
@@ -563,7 +571,20 @@ p,input,label,span,a{
     }
     .nav li a{
         font-size: 25px;
+    } */
+    .nav ul{
+        display: none;
     }
+    .nav .hamburger{
+        display: inline-block;
+        position: fixed;
+        right: 40px;
+        top: 10px;
+    }
+    nav. h1{
+        width: 100%;
+    }
+
     .ads-box{
         float:none;
         width: 100%;
