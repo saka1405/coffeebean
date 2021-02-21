@@ -395,6 +395,9 @@ p,input,label,span,a{
     text-transform: uppercase;
     font-weight: 800;
 }
+.res-form #submit:focus{
+    background-color: #c7a17a;
+}
 /* footer area 1 */
 .footer{
     /* border: 4px solid red; */
@@ -479,6 +482,10 @@ p,input,label,span,a{
     padding: 10px;
     background-color: #c7a17a;
 }
+.contact #search-btn:hover{
+    color: #c7a17a;
+    background-color: #312a26;
+}
 
 .location h3{
     color: #f2f2f2;
@@ -512,6 +519,9 @@ p,input,label,span,a{
     color: white;
     text-transform: uppercase;
 }
+.logo h2:hover{
+    color: #4caf50;
+}
 .social ul a{
     color: white;
     text-transform: capitalize;
@@ -524,6 +534,10 @@ p,input,label,span,a{
 }
 .social{
     text-align: center;
+}
+.social ul a:hover{
+    text-decoration: underline;
+    color: #f2f2f2;
 }
 .copyright p{
     color: white;
@@ -615,8 +629,5 @@ p,input,label,span,a{
     .copyright p{
         text-align: center;
     }
-
-
-
 
 }
