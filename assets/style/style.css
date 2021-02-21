@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap');
+/* reset declration */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #000000;
+}
+.wrapper{
+    min-width: 875px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  'Oswald', sans-serif;
+}
+p,input,label,span,a{
+    font: 'Open Sans', sans-serif;
+}
+/* header area */
+.nav{
+    /* border: 4px solid red; */
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+}
+.nav h1{
+    /* border: 2px dashed black; */
+    float: left;
+    width: 30%;
+}
+.nav .nav-links{
+    /* border: 2px dashed blue; */
+    float: right;
+    width: 70%;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+
+}
+.nav .nav-links li{
+    display: inline-block;
+    /* border: 1px solid black; */
+
+}
+.nav h1 a{
+    text-decoration: none;
+    font-family:  'Oswald', sans-serif;
+    color: #312a26;
+}
+.nav h1 a:hover{
+    color: #4caf50;
+}
+.nav li a{
+    text-decoration: none;
+    color: #312a26;
+    font-weight: 800;
+    font-family:  'Oswald', sans-serif;    
+}
+.nav li a:hover{
+    color: #4caf50;   
+}
+
+/* banner area */
+.banner{
+    /* border: 4px solid red; */
+    height: 650px;
+    background-image:url(../images/atf-image.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+.banner-text{
+    /* border: 2px dashed white; */
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.banner-text h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 70px;
+    color:#312a26 ;
+}
+.banner-text h2 span{
+    font-family:  'Oswald', sans-serif;    
+    color: #4caf50;
+}
+.banner-text p{
+    font-style: italic;
+    color:#312a26;
+}
+.banner-text a{
+    background-color:#312a26 ;
+    padding: 15px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+.banner-text a:hover{
+    background-color: white;
+    color: #312a26;
+    font-weight: 800;
+}
+/* ads area 1 */
+.ads{
+    /* border:4px solid red; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+.ads-box{
+    /* border: 2px dashed black; */
+    height: 350px;
+    float: left;
+    width: 49.5%;
+}
+.ads-item1{
+    background-image:url(../images/merchandise1.jpg);
+    margin-right: 1%;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.ads-item2{
+    background-image: url(../images/merchandise2.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.ads-text{
+    /* border: 2px dashed white; */
+    width: 25%;
+    margin-top:15% ;
+    margin-left: 10%;
+    text-transform: uppercase;
+    
+}
+.ads-text h3{
+    color: white;
+    font-size: 32px;
+    line-height:35px;
+}
+.ads-text a{
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 800;
+
+}
+/* merchandise area */
+.merch{
+    /* border: 4px solid red; */
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 5%;
+}
+.div-title{
+    /* border:2px dashed black; */
+    text-align: center;
+    margin-bottom: 5%;
+}
+.div-title span{
+    font-style: italic;
+    color: #c7a17a;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.div-title h2{
+    color:#312a26;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.div-title hr{
+    background-color: #c7a17a;
+    height: 4px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.merch-gallery{
+    /* border: 3px solid blue; */
+    overflow: auto;
+}
+.merch-item{
+    /* border: 3px dashed black; */
+    float: left;
+    width: 24.25%;
+}
+.merch-item img{
+    width: 100%;
+}
+.item1,.item2,.item3,.item5,.item6,.item7{
+    margin-right: 1%;
+}
+.item5,.item6,.item7,.item8{
+    margin-top: 1%;
+}
+.merch-item h3{
+    color: #312a26;
+    text-transform: uppercase;
+}
+.merch-item span,.merch-item p{
+    color: #c7a17a;
+}
+/* ads area 2 */
+.ads-big{
+    /* border: 4px solid red; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;  
+    background-image: url(../images/banner.jpg);
+    height:400px ; 
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ads-big-text{
+    /* border: 3px dashed black; */
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+}
+.ads-big-text span{
+    color: #c7a17a;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.ads-big-text h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.ads-big-text a{
+    display: inline-block;
+    background-color: white;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 15px 20px;
+    color: #312a26;
+    text-decoration: none;
+}
+/* merchandise sale 
+    just added new class name = item1-item4
+*/
+/* ads area 3 */
+.ads-item3{
+    background-image:url(../images/merchandise3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.ads-item4{
+    background-image:url(../images/merchandise4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1%;
+}
+.ads-item5{
+    background-image:url(../images/merchandise5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1%;
+}
+.ads-item6{
+    background-image:url(../images/merchandise6.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* reservation aera*/
+.reservation{
+    /* border: 4px solid red; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+}
+.res-form{
+    /* border: 3px dashed black; */
+    margin-top: 20px;
+    overflow: auto;
+}
+.left-form,.right-form{
+    /* border: 2px solid blue; */
+    background-color: #f2f2f2;
+    float: left;
+    width: 49.5%;
+    border-radius: 5px;
+    padding: 2%;
+}
+.left-form{
+    margin-right:1% ;
+}
+.res-form label{
+    display: block;
+    /* border: 1px dashed red; */
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 100%;
+    color: #312a26;
+}
+.res-form input,.res-form select,.res-form textarea{
+    width: 100%;
+    padding: 10px;
+    font: 'Open Sans', sans-serif;
+    color: #312a26;
+    margin-bottom:10px ;
+}
+.res-form #am,.res-form #pm,.res-form .one-line,.res-form #agree{
+    display: inline;
+    width: auto;
+}
+.right-form h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #312a26;
+}
+.right-form p{
+    text-align: center;
+    text-transform: capitalize;
+    color: #312a26;
+    font-weight: 700;
+}
+.right-form span{
+    text-align: center;
+    text-transform: capitalize;
+    color: #312a26;
+    /* border: 1px solid black; */
+    display: block;
+}
+.res-form #submit{
+    background-color: #4caf50;
+    display: block;
+    margin-top: 2%;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+/* footer area 1 */
+.footer{
+    /* border: 4px solid red; */
+    background-image: url(../images/footer-image.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.footer-content{
+    /* border: 3px dashed white; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+.opening,.latest,.contact,.location{
+    /* border: 2px solid yellow; */
+    float: left;
+    width: 24.25%;
+}
+.opening,.latest,.contact{
+    margin-right: 1%;
+}
+.opening h3{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.opening table th{
+    color: white;
+    text-transform: capitalize;
+    font-family:  'Oswald', sans-serif;
+}
+.opening table td{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.latest h3{
+    color: white;
+    font-family:  'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.latest h4{
+    color: white;
+    font-family:  'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.latest p{
+    color: #c7a17a;
+}
+.contact h3{
+    color: white;
+    font-family:  'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5%;   
+}
+.contact p{
+    color: white;
+    font: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.contact .change-color{
+    color: #c7a17a;
+    font-size: 800;
+}
+.contact .title2{
+    margin-top: 5%;
+}
+.contact #search{
+    padding: 10px ;
+    background-color: white;
+    color: #312a26;
+}
+.contact #search-btn{
+    color: #312a26;
+    padding: 10px;
+    background-color: #c7a17a;
+}
+
+.location h3{
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+.location h4{
+    color: #c7a17a;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+.location p{
+    color: #f2f2f2;
+    font-weight: 700;
+}
+/* footer area 2 */
+.footer2{
+    /* border: 4px solid red; */
+    background-color: black;
+}
+.footer-content .logo,
+.footer-content .social,
+.footer-content .copyright{
+    /* border: 3px solid yellow; */
+    float: left;
+    width: 32%;
+}
+.logo,.social{
+    margin-right:2% ;
+}
+.logo h2{
+    color: white;
+    text-transform: uppercase;
+}
+.social ul a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.social ul li{
+    display: inline;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.social{
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    font-weight: 700;
+    text-align: right;
+}
